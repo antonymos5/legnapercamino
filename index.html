@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legna per Camino | Consegna a Domicilio – 333 645 3219</title>
+<meta name="description" content="Legna da ardere stagionata 18 mesi per camino. Consegna rapida a domicilio in Lombardia. Faggio, quercia e carpino selezionati. Chiama: 333 645 3219.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--nero:#0a0805;--carbone:#141210;--brace:#1e1a16;--legno:#2a2218;--ambra:#c8721a;--fuoco:#e85d04;--fiamma:#f48c06;--oro:#faa307;--crema:#fdf0d5;--bianco:#fff8f0}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;background:var(--nero);color:var(--crema);overflow-x:hidden}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px 40px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(to bottom,rgba(10,8,5,.95) 0%,transparent 100%);backdrop-filter:blur(4px)}
+.nav-logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--oro);text-decoration:none}
+.nav-cta{display:flex;align-items:center;gap:10px;background:var(--fuoco);color:#fff;padding:10px 24px;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:background .2s}
+.nav-cta:hover{background:var(--ambra)}
+.hero{min-height:100vh;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 30px 80px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 80%,rgba(232,93,4,.18) 0%,transparent 65%),radial-gradient(ellipse 60% 40% at 30% 50%,rgba(200,114,26,.1) 0%,transparent 60%),linear-gradient(180deg,#0a0805 0%,#141210 40%,#1a1108 100%)}
+.spark{position:absolute;width:3px;height:3px;background:var(--oro);border-radius:50%;animation:float-up linear infinite;opacity:0}
+.spark:nth-child(1){left:15%;animation-duration:4s}.spark:nth-child(2){left:25%;animation-duration:5s;animation-delay:1s;background:var(--fiamma)}.spark:nth-child(3){left:40%;animation-duration:6s;animation-delay:.5s;background:var(--fuoco)}.spark:nth-child(4){left:55%;animation-duration:4.5s;animation-delay:2s}.spark:nth-child(5){left:65%;animation-duration:5.5s;animation-delay:.8s}.spark:nth-child(6){left:75%;animation-duration:4s;animation-delay:1.5s}.spark:nth-child(7){left:85%;animation-duration:6s;animation-delay:3s}.spark:nth-child(8){left:35%;animation-duration:5s;animation-delay:2.5s;background:var(--fuoco)}
+@keyframes float-up{0%{bottom:0;opacity:0}10%{opacity:1}80%{opacity:.6}100%{bottom:100vh;opacity:0;transform:translateX(30px)}}
+.hero-content{position:relative;z-index:2;max-width:900px}
+.hero-badge{display:inline-block;background:rgba(232,93,4,.15);border:1px solid rgba(232,93,4,.4);color:var(--fiamma);padding:6px 20px;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:4px;text-transform:uppercase;border-radius:2px;margin-bottom:30px;animation:fade-in .8s ease forwards}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(42px,8vw,90px);font-weight:900;line-height:.95;letter-spacing:-2px;color:var(--bianco);margin-bottom:25px;animation:slide-up .8s ease .2s forwards;opacity:0}
+.hero h1 em{font-style:normal;color:var(--oro)}
+.hero-sub{font-size:clamp(16px,2.5vw,21px);font-weight:300;color:rgba(253,240,213,.75);line-height:1.65;max-width:640px;margin:0 auto 45px;animation:slide-up .8s ease .4s forwards;opacity:0}
+.hero-ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:50px;animation:slide-up .8s ease .6s forwards;opacity:0}
+.btn-fire{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--fuoco) 0%,var(--ambra) 100%);color:#fff;padding:20px 44px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-radius:3px;box-shadow:0 8px 32px rgba(232,93,4,.45);transition:all .2s}
+.btn-fire:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(232,93,4,.6)}
+.btn-wa{display:inline-flex;align-items:center;gap:10px;background:#25D366;color:#fff;padding:20px 44px;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-radius:3px;box-shadow:0 8px 32px rgba(37,211,102,.3);transition:all .2s}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(37,211,102,.45)}
+.hero-trust{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;animation:fade-in .8s ease .8s forwards;opacity:0}
+.trust-item{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:500;color:rgba(253,240,213,.6)}
+.trust-item .ico{color:var(--oro);font-size:16px}
+.urgency-bar{background:linear-gradient(90deg,var(--fuoco) 0%,var(--ambra) 50%,var(--fuoco) 100%);background-size:200% 100%;animation:shimmer 3s linear infinite;padding:14px 30px;text-align:center;font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#fff}
+@keyframes shimmer{0%{background-position:0% 50%}100%{background-position:200% 50%}}
+section{padding:90px 30px}
+.section-label{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:5px;text-transform:uppercase;color:var(--ambra);display:block;margin-bottom:12px;text-align:center}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(32px,5vw,54px);font-weight:900;color:var(--bianco);text-align:center;line-height:1.05;letter-spacing:-1px;margin-bottom:20px}
+.section-sub{font-size:17px;font-weight:300;color:rgba(253,240,213,.65);text-align:center;max-width:560px;margin:0 auto 60px;line-height:1.7}
+.perche{background:var(--carbone);border-top:1px solid rgba(200,114,26,.15);border-bottom:1px solid rgba(200,114,26,.15)}
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:3px;max-width:1100px;margin:0 auto}
+.feature-card{background:var(--brace);padding:40px 32px;position:relative;overflow:hidden;transition:background .3s}
+.feature-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--fuoco),var(--oro));transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.feature-card:hover{background:var(--legno)}.feature-card:hover::before{transform:scaleX(1)}
+.feature-icon{font-size:42px;margin-bottom:20px;display:block}
+.feature-card h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:var(--oro);text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.feature-card p{font-size:15px;color:rgba(253,240,213,.65);line-height:1.7}
+.numeri{background:linear-gradient(135deg,var(--legno) 0%,#0f0c08 100%);border-top:1px solid rgba(200,114,26,.2);border-bottom:1px solid rgba(200,114,26,.2);padding:70px 30px}
+.numeri-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px;max-width:900px;margin:0 auto}
+.numero-item{text-align:center;padding:35px 20px}
+.numero-valore{font-family:'Playfair Display',serif;font-size:clamp(48px,7vw,72px);font-weight:900;color:var(--oro);line-height:1;display:block;margin-bottom:8px}
+.numero-label{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:rgba(253,240,213,.5)}
+.prodotti{background:var(--nero)}
+.prodotti-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:3px;max-width:1100px;margin:0 auto}
+.prodotto-card{background:var(--carbone);padding:45px 35px;position:relative;border:1px solid rgba(200,114,26,.1);transition:border-color .3s}
+.prodotto-card:hover{border-color:rgba(200,114,26,.4)}
+.prodotto-card.featured{border-color:var(--ambra);background:linear-gradient(135deg,var(--brace) 0%,#231a0e 100%)}
+.prodotto-badge{position:absolute;top:20px;right:20px;background:var(--fuoco);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:4px 12px;border-radius:2px}
+.prodotto-icon{font-size:52px;margin-bottom:20px;display:block}
+.prodotto-card h3{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;color:var(--bianco);margin-bottom:10px}
+.essenza{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--ambra);margin-bottom:16px;display:block}
+.prodotto-card p{font-size:15px;color:rgba(253,240,213,.65);line-height:1.7;margin-bottom:25px}
+.prodotto-specs{display:flex;flex-direction:column;gap:8px;margin-bottom:30px}
+.spec-item{display:flex;align-items:center;gap:10px;font-size:14px;color:rgba(253,240,213,.75)}
+.spec-item::before{content:'✓';color:var(--oro);font-weight:700;flex-shrink:0}
+.prodotto-cta{display:block;text-align:center;background:transparent;border:1px solid var(--ambra);color:var(--oro);padding:14px 24px;font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;transition:all .2s}
+.prodotto-cta:hover{background:var(--ambra);color:#fff}
+.prodotto-card.featured .prodotto-cta{background:linear-gradient(135deg,var(--fuoco),var(--ambra));border-color:transparent;color:#fff;box-shadow:0 6px 20px rgba(232,93,4,.4)}
+.come-ordini{background:var(--carbone)}
+.steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:40px;max-width:1000px;margin:0 auto}
+.step-card{text-align:center}
+.step-number{width:64px;height:64px;border-radius:50%;border:2px solid var(--ambra);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:26px;font-weight:900;color:var(--oro);margin:0 auto 20px;transition:all .3s}
+.step-card:hover .step-number{background:var(--ambra);color:#fff}
+.step-card h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:800;color:var(--bianco);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.step-card p{font-size:15px;color:rgba(253,240,213,.6);line-height:1.6}
+.garanzie{background:var(--nero)}
+.garanzie-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px;max-width:1100px;margin:0 auto}
+.garanzia-card{background:var(--brace);padding:35px 28px;display:flex;gap:20px;align-items:flex-start;transition:background .3s}
+.garanzia-card:hover{background:var(--legno)}
+.garanzia-ico{font-size:36px;flex-shrink:0}
+.garanzia-card h4{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;color:var(--oro);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px}
+.garanzia-card p{font-size:14px;color:rgba(253,240,213,.6);line-height:1.6}
+.zone{background:var(--carbone);border-top:1px solid rgba(200,114,26,.15)}
+.zone-wrapper{max-width:900px;margin:0 auto;text-align:center}
+.zone-list{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:10px}
+.zona-tag{background:var(--brace);border:1px solid rgba(200,114,26,.2);color:rgba(253,240,213,.7);padding:8px 18px;font-size:13px;font-weight:500;border-radius:2px;transition:all .2s}
+.zona-tag:hover{border-color:var(--ambra);color:var(--oro)}
+.recensioni{background:var(--nero)}
+.recensioni-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:3px;max-width:1100px;margin:0 auto}
+.recensione-card{background:var(--carbone);padding:36px 30px;position:relative;border:1px solid rgba(200,114,26,.08)}
+.stelle{color:var(--oro);font-size:18px;margin-bottom:16px;display:block}
+.recensione-testo{font-size:15px;color:rgba(253,240,213,.75);line-height:1.75;margin-bottom:20px;font-style:italic}
+.recensione-autore{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;color:var(--ambra);letter-spacing:2px;text-transform:uppercase}
+.virgolette{position:absolute;top:20px;right:24px;font-size:64px;color:rgba(200,114,26,.1);font-family:'Playfair Display',serif;line-height:1}
+.cta-finale{background:linear-gradient(135deg,#1a0d05 0%,#2a1508 50%,#1a0d05 100%);position:relative;overflow:hidden;text-align:center;padding:100px 30px}
+.cta-finale::before{content:'';position:absolute;top:-50%;left:50%;transform:translateX(-50%);width:800px;height:600px;background:radial-gradient(ellipse,rgba(232,93,4,.15) 0%,transparent 70%);pointer-events:none}
+.cta-finale-content{position:relative;z-index:1;max-width:700px;margin:0 auto}
+.cta-finale h2{font-family:'Playfair Display',serif;font-size:clamp(36px,6vw,62px);font-weight:900;color:var(--bianco);line-height:1.05;letter-spacing:-1px;margin-bottom:20px}
+.cta-finale h2 em{font-style:normal;color:var(--oro)}
+.cta-finale p{font-size:18px;color:rgba(253,240,213,.7);margin-bottom:40px;line-height:1.65}
+.cta-numero{display:block;font-family:'Playfair Display',serif;font-size:clamp(44px,8vw,72px);font-weight:900;color:#fff;text-decoration:none;letter-spacing:-1px;margin-bottom:8px;transition:color .2s}
+.cta-numero:hover{color:var(--oro)}
+.cta-orari{font-size:14px;color:rgba(253,240,213,.45);margin-bottom:30px}
+.cta-wa-grande{display:inline-flex;align-items:center;gap:12px;background:#25D366;color:#fff;padding:18px 48px;font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:800;letter-spacing:1px;text-transform:uppercase;text-decoration:none;border-radius:3px;box-shadow:0 8px 30px rgba(37,211,102,.35);transition:all .2s}
+.cta-wa-grande:hover{transform:translateY(-3px);box-shadow:0 14px 40px rgba(37,211,102,.5)}
+footer{background:var(--nero);border-top:1px solid rgba(200,114,26,.15);padding:40px 30px;text-align:center}
+.footer-logo{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--oro);margin-bottom:12px;display:block}
+.footer-info{font-size:13px;color:rgba(253,240,213,.4);line-height:1.8}
+.footer-info a{color:var(--ambra);text-decoration:none}
+.floating-cta{position:fixed;bottom:30px;right:30px;z-index:99;display:flex;flex-direction:column;gap:12px;align-items:flex-end}
+.float-btn{display:flex;align-items:center;gap:10px;padding:14px 22px;border-radius:50px;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;text-decoration:none;box-shadow:0 6px 24px rgba(0,0,0,.4);transition:transform .2s;white-space:nowrap}
+.float-btn:hover{transform:translateY(-3px)}
+.float-tel{background:var(--fuoco);color:#fff}
+.float-wa{background:#25D366;color:#fff}
+@keyframes fade-in{from{opacity:0}to{opacity:1}}
+@keyframes slide-up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+.reveal{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+@media(max-width:768px){nav{padding:14px 20px}.nav-cta{display:none}section{padding:60px 20px}.hero-ctas{flex-direction:column;align-items:center}.btn-fire,.btn-wa{width:100%;max-width:340px;justify-content:center}.floating-cta{bottom:20px;right:16px}.float-btn span{display:none}.float-btn{padding:15px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-logo">🪵 LegnaPerCamino</a>
+  <a href="tel:+393336453219" class="nav-cta">📞 333 645 3219</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none">
+    <div class="spark"></div><div class="spark"></div><div class="spark"></div>
+    <div class="spark"></div><div class="spark"></div><div class="spark"></div>
+    <div class="spark"></div><div class="spark"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge">🔥 Stagionata 18 Mesi · Consegna Rapida · Lombardia</div>
+    <h1>La Legna per Camino<br>che <em>Scalda Davvero</em></h1>
+    <p class="hero-sub">Faggio, quercia e carpino selezionati. Stagionati naturalmente oltre 18 mesi. Consegna a domicilio in tutta la Lombardia. Brucia più a lungo, produce meno fumo.</p>
+    <div class="hero-ctas">
+      <a href="tel:+393336453219" class="btn-fire">📞 Chiama — 333 645 3219</a>
+      <a href="https://wa.me/393336453219?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20la%20legna%20da%20camino" class="btn-wa">💬 WhatsApp</a>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item"><span class="ico">✓</span><span>Consegna 24-48h</span></div>
+      <div class="trust-item"><span class="ico">✓</span><span>Bancali e quintali</span></div>
+      <div class="trust-item"><span class="ico">✓</span><span>Preventivo gratuito</span></div>
+      <div class="trust-item"><span class="ico">✓</span><span>10+ anni esperienza</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="urgency-bar">🔥 Pre-ordina per l'inverno · Scorte limitate · Prezzi bloccati fino ad esaurimento</div>
+
+<section class="perche">
+  <span class="section-label">La differenza che senti</span>
+  <h2 class="section-title reveal">Legna di qualità superiore.<br>Il tuo camino lo meriterà.</h2>
+  <p class="section-sub reveal">Non tutta la legna è uguale. La nostra è selezionata, stagionata correttamente e consegnata pronta all'uso. La differenza si sente dal primo accensione.</p>
+  <div class="features-grid">
+    <div class="feature-card reveal"><span class="feature-icon">🌳</span><h3>Essenze Nobili Selezionate</h3><p>Faggio, quercia e carpino — le essenze con il più alto potere calorifico. Nessuna legna di bassa qualità o mista non dichiarata.</p></div>
+    <div class="feature-card reveal"><span class="feature-icon">⏳</span><h3>Stagionatura 18+ Mesi</h3><p>Umidità inferiore al 20%. La legna "fresca" spreca energia per evaporare l'acqua. La nostra brucia subito, forte e pulita.</p></div>
+    <div class="feature-card reveal"><span class="feature-icon">🚚</span><h3>Consegna a Domicilio</h3><p>Portiamo la legna direttamente dove vuoi tu — garage, cantina o cortile. Nessun viaggio, nessuna fatica per te.</p></div>
+    <div class="feature-card reveal"><span class="feature-icon">💰</span><h3>Prezzi Onesti e Trasparenti</h3><p>Preventivo gratuito senza impegno. Nessuna sorpresa in fattura. Pagamento alla consegna.</p></div>
+  </div>
+</section>
+
+<section class="numeri">
+  <div class="numeri-grid">
+    <div class="numero-item reveal"><span class="numero-valore">18+</span><span class="numero-label">Mesi di stagionatura</span></div>
+    <div class="numero-item reveal"><span class="numero-valore">&lt;20%</span><span class="numero-label">Umidità residua</span></div>
+    <div class="numero-item reveal"><span class="numero-valore">10+</span><span class="numero-label">Anni di esperienza</span></div>
+    <div class="numero-item reveal"><span class="numero-valore">24h</span><span class="numero-label">Consegna rapida</span></div>
+  </div>
+</section>
+
+<section class="prodotti">
+  <span class="section-label">I nostri formati</span>
+  <h2 class="section-title reveal">Scegli il formato giusto<br>per il tuo camino</h2>
+  <p class="section-sub reveal">Dalla brace per una serata al rifornimento per tutto l'inverno.</p>
+  <div class="prodotti-grid">
+    
+    <div class="prodotto-card featured reveal">
+      <span class="prodotto-badge">⭐ Più Venduto</span>
+      <span class="prodotto-icon">📦</span><h3>Bancale Intero</h3>
+      <span class="essenza">Faggio · Quercia · Carpino</span>
+      <p>Il formato più conveniente. Un bancale copre l'intera stagione invernale. Il massimo risparmio garantito.</p>
+      <div class="prodotto-specs">
+        
+        <span class="spec-item">Stagionatura garantita 18 mesi</span>
+        <span class="spec-item">Consegna con muletto se necessario</span>
+        <span class="spec-item">Miglior prezzo al kg</span>
+      </div>
+      <a href="tel:+393336453219" class="prodotto-cta">Chiedi Prezzo →</a>
+    </div>
+    
+  </div>
+</section>
+
+<section class="come-ordini">
+  <span class="section-label">Semplicissimo</span>
+  <h2 class="section-title reveal">Ordini in 3 mosse.<br>Consegna a casa tua.</h2>
+  <p class="section-sub reveal">Nessun negozio da raggiungere, nessun carico pesante. Pensiamo a tutto noi.</p>
+  <div class="steps-grid">
+    <div class="step-card reveal"><div class="step-number">1</div><h3>Chiama o scrivi</h3><p>Contattaci al 333 645 3219 o via WhatsApp. Risposta immediata durante gli orari di lavoro.</p></div>
+    <div class="step-card reveal"><div class="step-number">2</div><h3>Preventivo gratuito</h3><p>Ti diciamo quantità disponibili, prezzo e data consegna. Nessun impegno da parte tua.</p></div>
+    <div class="step-card reveal"><div class="step-number">3</div><h3>Consegna a domicilio</h3><p>Portiamo la legna direttamente a casa tua in 24-48 ore. Pagamento alla consegna.</p></div>
+  </div>
+</section>
+
+<section class="garanzie">
+  <span class="section-label">Le nostre garanzie</span>
+  <h2 class="section-title reveal">Compri con fiducia.<br>Sempre.</h2>
+  <div class="garanzie-grid">
+    <div class="garanzia-card reveal"><span class="garanzia-ico">🎯</span><div><h4>Qualità Garantita</h4><p>Se la legna non è come descritto, la riprendiamo a nostre spese. La tua soddisfazione prima di tutto.</p></div></div>
+    <div class="garanzia-card reveal"><span class="garanzia-ico">📞</span><div><h4>Risposta Immediata</h4><p>Rispondiamo sempre entro poche ore. Nessun messaggio ignorato durante gli orari lavorativi.</p></div></div>
+    <div class="garanzia-card reveal"><span class="garanzia-ico">🚚</span><div><h4>Consegna Puntuale</h4><p>Rispettiamo sempre il giorno concordato. Se impossibile per forza maggiore, ti avvisiamo subito.</p></div></div>
+    <div class="garanzia-card reveal"><span class="garanzia-ico">💶</span><div><h4>Pagamento alla Consegna</h4><p>Paghi solo quando vedi e tocchi la merce. Nessun anticipo richiesto, zero rischi.</p></div></div>
+  </div>
+</section>
+
+<section class="zone">
+  <div class="zone-wrapper">
+    <span class="section-label">Dove consegniamo</span>
+    <h2 class="section-title reveal">Tutta la Lombardia.</h2>
+    <p class="section-sub reveal">Dalla provincia di Lodi a Milano, Pavia e Cremona. Serviamo privati, ristoranti e aziende.</p>
+    <div class="zone-list reveal">
+      <span class="zona-tag">Lodi</span><span class="zona-tag">Codogno</span><span class="zona-tag">Casalpusterlengo</span>
+      <span class="zona-tag">Milano</span><span class="zona-tag">San Donato Milanese</span><span class="zona-tag">San Giuliano Milanese</span>
+      <span class="zona-tag">Melegnano</span><span class="zona-tag">Paullo</span><span class="zona-tag">Crema</span>
+      <span class="zona-tag">Pavia</span><span class="zona-tag">Segrate</span><span class="zona-tag">Pioltello</span>
+      <span class="zona-tag">Lacchiarella</span><span class="zona-tag">Carpiano</span><span class="zona-tag">Opera</span>
+      <span class="zona-tag">Sant'Angelo Lodigiano</span><span class="zona-tag">Mulazzano</span><span class="zona-tag">Sordio</span>
+      <span class="zona-tag">e tutta la provincia...</span>
+    </div>
+  </div>
+</section>
+
+<section class="recensioni">
+  <span class="section-label">Cosa dicono i clienti</span>
+  <h2 class="section-title reveal">Chi ci ha scelto<br>torna sempre.</h2>
+  <div class="recensioni-grid">
+    <div class="recensione-card reveal"><div class="virgolette">"</div><span class="stelle">★★★★★</span><p class="recensione-testo">Legna eccellente, si vede subito la differenza dalla stagionatura. Il camino tiene il calore molto più a lungo rispetto a quella che compravo prima. Consegna puntualissima.</p><span class="recensione-autore">— Marco T., Lodi</span></div>
+    <div class="recensione-card reveal"><div class="virgolette">"</div><span class="stelle">★★★★★</span><p class="recensione-testo">Ho ordinato un bancale per il nostro ristorante. Faggio selezionato, combustione uniforme e pochissima cenere. Li richiamo ogni anno prima dell'inverno senza pensarci due volte.</p><span class="recensione-autore">— Ristorante La Quercia, Codogno</span></div>
+    <div class="recensione-card reveal"><div class="virgolette">"</div><span class="stelle">★★★★★</span><p class="recensione-testo">Ho chiamato la mattina e il pomeriggio avevo già la legna in cantina. Prezzi onesti e personale gentilissimo. Non cambierò mai fornitore, garantito.</p><span class="recensione-autore">— Giovanna M., San Donato Milanese</span></div>
+  </div>
+</section>
+
+<section class="cta-finale">
+  <div class="cta-finale-content">
+    <h2>Pronto per il tuo<br><em>camino perfetto?</em></h2>
+    <p>Chiama adesso per un preventivo gratuito e senza impegno. Consegniamo la legna migliore direttamente a casa tua.</p>
+    <a href="tel:+393336453219" class="cta-numero">📞 333 645 3219</a>
+    <p class="cta-orari">Lun–Sab · 8:00 – 18:00 · Risposta immediata</p>
+    <a href="https://wa.me/393336453219?text=Ciao%2C%20vorrei%20un%20preventivo%20per%20la%20legna%20per%20camino" class="cta-wa-grande">💬 Scrivi su WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-logo">🪵 LegnaPerCamino.it</span>
+  <p class="footer-info">
+    Moscato Antonio · Verde Oliva S.r.l.s · Via Colombera 2, Casalmaiocco (LO)<br>
+    P.IVA IT10927440965 · <a href="tel:+393336453219">333 645 3219</a><br>
+    <small style="opacity:.5">© 2026 LegnaPerCamino.it · Tutti i diritti riservati</small>
+  </p>
+</footer>
+
+<div class="floating-cta">
+  <a href="https://wa.me/393336453219" class="float-btn float-wa">💬 <span>WhatsApp</span></a>
+  <a href="tel:+393336453219" class="float-btn float-tel">📞 <span>Chiama</span></a>
+</div>
+
+<script>
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:.1});
+document.querySelectorAll('.reveal').forEach((el,i)=>{
+  const siblings=[...el.parentElement.querySelectorAll('.reveal')];
+  const idx=siblings.indexOf(el);
+  if(idx>0)el.style.transitionDelay=(idx*.12)+'s';
+  obs.observe(el);
+});
+</script>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"LegnaPerCamino.it","description":"Vendita e consegna legna da ardere stagionata per camino in Lombardia.","url":"https://www.legnapercamino.it","telephone":"+393336453219","address":{"@type":"PostalAddress","streetAddress":"Via Colombera 2","addressLocality":"Casalmaiocco","addressRegion":"LO","addressCountry":"IT"},"areaServed":"Lombardia","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}]}
+</script>
+</body>
+</html>
