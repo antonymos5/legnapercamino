@@ -85,4 +85,10 @@
   <url><loc>https://www.legnapercamino.it/legna-carpiano.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.legnapercamino.it/legna-lacchiarella.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
+  <!-- BLOG -->
+  <url><loc>https://www.legnapercamino.it/blog/</loc><lastmod>2026-11-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.legnapercamino.it/blog/legna-stagionata-come-riconoscerla.html</loc><lastmod>2026-11-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.legnapercamino.it/blog/quanta-legna-per-un-inverno.html</loc><lastmod>2026-11-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.legnapercamino.it/blog/faggio-quercia-carpino-quale-legna.html</loc><lastmod>2026-11-21</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
 </urlset>

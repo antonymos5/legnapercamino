@@ -125,13 +125,15 @@ footer{background:var(--nero);border-top:1px solid rgba(200,114,26,.15);padding:
 .reveal{opacity:0;transform:translateY(40px);transition:opacity .7s ease,transform .7s ease}
 .reveal.visible{opacity:1;transform:translateY(0)}
 @media(max-width:768px){nav{padding:14px 20px}.nav-cta{display:none}section{padding:60px 20px}.hero-ctas{flex-direction:column;align-items:center}.btn-fire,.btn-wa{width:100%;max-width:340px;justify-content:center}.floating-cta{bottom:20px;right:16px}.float-btn span{display:none}.float-btn{padding:15px}}
+.nav-right{display:flex;align-items:center;gap:22px}.nav-blog{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--crema);text-decoration:none;white-space:nowrap}.nav-blog:hover{color:var(--oro)}
+.faq{background:var(--carbone);border-top:1px solid rgba(200,114,26,.15)}.faq-list{max-width:800px;margin:0 auto}.faq-list details{background:var(--brace);border:1px solid rgba(200,114,26,.15);margin-bottom:8px}.faq-list summary{cursor:pointer;padding:18px 22px;font-weight:600;font-size:17px;color:var(--bianco);list-style:none}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary::before{content:"+";color:var(--oro);font-weight:700;margin-right:12px}.faq-list details[open] summary::before{content:"\2212"}.faq-list details p{padding:0 22px 18px;font-size:15px;color:rgba(253,240,213,.7);line-height:1.7}
 </style>
 </head>
 <body>
 
 <nav>
   <a href="#" class="nav-logo">🪵 LegnaPerCamino</a>
-  <a href="tel:+393336453219" class="nav-cta">📞 333 645 3219</a>
+  <div class="nav-right"><a href="/blog/" class="nav-blog">Blog</a><a href="tel:+393336453219" class="nav-cta">📞 333 645 3219</a></div>
 </nav>
 
 <section class="hero">
@@ -247,6 +249,19 @@ footer{background:var(--nero);border-top:1px solid rgba(200,114,26,.15);padding:
   </div>
 </section>
 
+<section class="faq">
+  <span class="section-label">Hai un dubbio?</span>
+  <h2 class="section-title reveal">Domande frequenti</h2>
+  <div class="faq-list">
+    <details><summary>Quanto è stagionata la legna che vendete?</summary><p>La nostra legna è stagionata naturalmente oltre 18 mesi, con umidità inferiore al 20%.</p></details>
+    <details><summary>Quali essenze di legna avete?</summary><p>Selezioniamo faggio, quercia e carpino, le essenze con il più alto potere calorifico.</p></details>
+    <details><summary>Consegnate la legna a domicilio? Dove?</summary><p>Sì, portiamo la legna direttamente dove vuoi tu, per esempio in garage, cantina o cortile. Serviamo la Lombardia, dalla provincia di Lodi a Milano, Pavia e Cremona, in oltre 60 comuni.</p></details>
+    <details><summary>Come posso ordinare la legna?</summary><p>Chiami o scrivi su WhatsApp al 333 645 3219. Ti diciamo quantità disponibili, prezzo e data di consegna con un preventivo gratuito e senza impegno.</p></details>
+    <details><summary>Quando si paga?</summary><p>Il pagamento avviene alla consegna: nessun anticipo richiesto.</p></details>
+    <details><summary>In quali formati si acquista la legna?</summary><p>I formati indicati sul sito sono bancali e quintali. Per il formato più adatto al tuo camino chiamaci al 333 645 3219.</p></details>
+  </div>
+</section>
+
 <section class="cta-finale">
   <div class="cta-finale-content">
     <h2>Pronto per il tuo<br><em>camino perfetto?</em></h2>
@@ -261,7 +276,7 @@ footer{background:var(--nero);border-top:1px solid rgba(200,114,26,.15);padding:
   <span class="footer-logo">🪵 LegnaPerCamino.it</span>
   <p class="footer-info">
     P.IVA IT10927440965 · <a href="tel:+393336453219">333 645 3219</a><br>
-    <a href="privacy.html">Privacy Policy</a> · <a href="cookie.html">Cookie Policy</a><br>
+    <a href="/blog/">Blog</a> · <a href="privacy.html">Privacy Policy</a> · <a href="cookie.html">Cookie Policy</a><br>
     <small style="opacity:.5">© 2026 LegnaPerCamino.it · Tutti i diritti riservati</small>
   </p>
 </footer>
@@ -283,6 +298,9 @@ document.querySelectorAll('.reveal').forEach((el,i)=>{
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"LocalBusiness","name":"LegnaPerCamino.it","description":"Vendita e consegna legna da ardere stagionata per camino in Lombardia.","url":"https://www.legnapercamino.it","telephone":"+393336453219","address":{"@type":"PostalAddress","streetAddress":"Via Colombera 2","addressLocality":"Casalmaiocco","addressRegion":"LO","addressCountry":"IT"},"areaServed":"Lombardia","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"18:00"}]}
+</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Quanto è stagionata la legna che vendete?", "acceptedAnswer": {"@type": "Answer", "text": "La nostra legna è stagionata naturalmente oltre 18 mesi, con umidità inferiore al 20%."}}, {"@type": "Question", "name": "Quali essenze di legna avete?", "acceptedAnswer": {"@type": "Answer", "text": "Selezioniamo faggio, quercia e carpino, le essenze con il più alto potere calorifico."}}, {"@type": "Question", "name": "Consegnate la legna a domicilio? Dove?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, portiamo la legna direttamente dove vuoi tu, per esempio in garage, cantina o cortile. Serviamo la Lombardia, dalla provincia di Lodi a Milano, Pavia e Cremona, in oltre 60 comuni."}}, {"@type": "Question", "name": "Come posso ordinare la legna?", "acceptedAnswer": {"@type": "Answer", "text": "Chiami o scrivi su WhatsApp al 333 645 3219. Ti diciamo quantità disponibili, prezzo e data di consegna con un preventivo gratuito e senza impegno."}}, {"@type": "Question", "name": "Quando si paga?", "acceptedAnswer": {"@type": "Answer", "text": "Il pagamento avviene alla consegna: nessun anticipo richiesto."}}, {"@type": "Question", "name": "In quali formati si acquista la legna?", "acceptedAnswer": {"@type": "Answer", "text": "I formati indicati sul sito sono bancali e quintali. Per il formato più adatto al tuo camino chiamaci al 333 645 3219."}}]}
 </script>
 </body>
 </html>
